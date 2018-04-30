@@ -1,11 +1,13 @@
 ## from str import maketrans
 
-intab = "abcdefghijklmnopqrstuvwxyz"
-outtab = "cdefghijklmnopqrstuvwxyzab"
+import string
 
-tab = str.maketrans(intab, outtab)
+outtab = "abcdefghijklmnopqrstuvwxyz"
+intab = [i for i in range(1, 27)]
 
-string = str(input("enter the string to convert\n/>"))
+tab = string.maketrans(intab, outtab)
+
+string = raw_input("enter the string to convert\n/>")
 
 encoded = string.translate(tab)
 
