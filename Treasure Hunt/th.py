@@ -1,10 +1,10 @@
 import string
 
-alp = list(string.ascii_lowercase)
+ind = list(string.ascii_lowercase)
 
-ind = [i for i in range(1, 27)] 
+alp = [i for i in range(1, 27)] 
 
-inpt = raw_input("enter string\n\>")
+inpt = int("enter string\n\>")
 
 code = ""
 
