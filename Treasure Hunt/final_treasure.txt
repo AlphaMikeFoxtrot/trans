@@ -2,4 +2,4 @@ abcdefghijklm
 |||||||||||||
 nopqrstuvwxyz
 
-code: 1/16 w 2/4 ssso
+code: 1/16 -- w -- 2/4 -- ssso
